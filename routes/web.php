@@ -18,5 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('produtos/novo','ProdutosController@create');
 Route::get('/produtos/novo', [ProdutosController::class, 'create']);
