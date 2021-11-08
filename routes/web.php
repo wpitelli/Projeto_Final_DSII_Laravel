@@ -25,3 +25,5 @@ Route::post('/produtos/novo', [\App\Http\controllers\ProdutosController::class, 
 Route::get('/produtos/ver/{id}', [ProdutosController::class, 'show']);
 
 Route::get('/produtos/editar/{id}', [ProdutosController::class, 'edit']);
+
+Route::post('/produtos/editar/{id}', [\App\Http\controllers\ProdutosController::class, 'update'])->name('alterar_produto');
