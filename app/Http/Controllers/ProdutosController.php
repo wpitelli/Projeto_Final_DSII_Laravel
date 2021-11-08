@@ -36,5 +36,12 @@ class ProdutosController extends Controller
         return view('produtos.show', ['produto' => $produto]);
     } 
 
+
+
+    
+    public function edit($id) {
+        $produto = Produto::findOrFail($id);
+        return view('produtos.edit', ['produto' => $produto]);
+    } 
     //
 }
