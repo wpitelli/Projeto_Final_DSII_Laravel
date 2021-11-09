@@ -7,7 +7,8 @@
     <title>Alterar um produto</title>
 </head>
 <body>
-    <form action=" {{ route('alterar_produto', ['id' => $produto->id]} }}" method="POST">
+    <!-- <form action=" {{ route('alterar_produto', ['id' => $produto->id]} }}" method="POST"> -->
+    <form action=""> -->        
        <label for="">Nome</label> <br />
        <input type="text" name="nome" value="{{ $produto->nome }}"> <br />
        <label for="">Custo</label> <br />
