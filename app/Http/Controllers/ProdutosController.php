@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Produto;
+//use App\Produto;
+use App\Models\Produto;
 
 class ProdutosController extends Controller
 {
@@ -60,6 +61,15 @@ class ProdutosController extends Controller
         return "Produto Atualizado com Sucesso!";
 
     }
+
+    public function destroy($id) {
+        $produto = Produto::findOrFail($id);
+        $produto->delete();
+
+        return "Produto Excluido com Sucesso!";        
+
+    } 
+
 
     //
 }

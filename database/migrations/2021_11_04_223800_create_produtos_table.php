@@ -15,7 +15,8 @@ class CreateProdutosTable extends Migration
     {
         
         Schema::create('produtos', function (Blueprint $table) {
-            $table->integer('id');
+//          $table->integer('id');
+            $table->increments('id');
             $table->string('nome',255);
             $table->decimal('custo',19,2);
             $table->decimal('preco',19,2);
