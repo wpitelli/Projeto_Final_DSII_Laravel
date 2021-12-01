@@ -1,3 +1,8 @@
+<h2> Projeto LARAVEL </h2>
+<h3>Este projeto tem como objetivo adquirir conhecimentos em LARAVEL.</h3>
+<h4>Foi proposto um CRUD básico, com banco de dados MySQL para exercitar os métodos necessários para sua criação.</h4>
+<h4>O projeto executa cadastro, consulta, edição e exclusão de produtos.</h4>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
